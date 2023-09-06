@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ReadCSV {
     public static void main(String[] args) throws Exception {
         //parsing a CSV file into Scanner class constructor
-        Scanner sc = new Scanner(new File("D:/Product_Details/ProductDetails.csv"));
+        Scanner sc = new Scanner(new File("D:/Product_Details/Advait_Deshpande.csv"));
         sc.useDelimiter(",");   //sets the delimiter pattern
         while (sc.hasNext())  //returns a boolean value
         {
